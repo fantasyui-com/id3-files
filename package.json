@@ -1,0 +1,26 @@
+{
+  "name": "id3-files",
+  "version": "1.0.0",
+  "description": "Employ ID v3 information in renaming of files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/id3-files.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/id3-files/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/id3-files#readme",
+  "dependencies": {
+    "alphanum-sort": "^1.0.2",
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4",
+    "music-metadata": "^0.8.6"
+  }
+}
