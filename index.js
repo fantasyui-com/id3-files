@@ -56,13 +56,13 @@ const main = async function({dir}){
       let newName = "";
 
       if(program.albumName){
-        newName = path.join( dir, padStart(index+1, (files.length+"").length , '0') +'-'+ kebabCase(data.common.album) + path.extname(entry.location) );
+        newName = path.join( dir, padStart(index+1, (files.length+"").length , '0') +'-'+ kebabCase(data.common.title||data.common.album) + path.extname(entry.location) );
 
       } else if(program.trackAlbumName){
-        newName = path.join( dir, padStart(data.common.track.no, (files.length+"").length , '0') +'-'+ kebabCase(data.common.album) + path.extname(entry.location) );
+        newName = path.join( dir, padStart(data.common.track.no, (files.length+"").length , '0') +'-'+ kebabCase(data.common.title||data.common.album) + path.extname(entry.location) );
 
       } else if(program.diskTrackAlbumName){
-        newName = path.join( dir, padStart(data.common.disk.no, (files.length+"").length , '0') +'-'+ padStart(data.common.track.no, (files.length+"").length , '0') +'-'+ kebabCase(data.common.album) + path.extname(entry.location) );
+        newName = path.join( dir, padStart(data.common.disk.no, (files.length+"").length , '0') +'-'+ padStart(data.common.track.no, (files.length+"").length , '0') +'-'+ kebabCase(data.common.title||data.common.album) + path.extname(entry.location) );
 
       } else {
         if(!data.common.title) throw new Error('Missing Title')
