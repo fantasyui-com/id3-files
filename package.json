@@ -1,6 +1,6 @@
 {
   "name": "id3-files",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Employ ID v3 information in renaming of files.",
   "main": "index.js",
   "scripts": {
