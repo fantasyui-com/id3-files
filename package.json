@@ -19,8 +19,14 @@
   "homepage": "https://github.com/fantasyui-com/id3-files#readme",
   "dependencies": {
     "alphanum-sort": "^1.0.2",
+    "chalk": "^2.4.1",
     "commander": "^2.11.0",
-    "lodash": "^4.17.4",
-    "music-metadata": "^0.8.6"
+    "fs-extra": "^6.0.1",
+    "glob": "^7.1.2",
+    "home": "^1.0.1",
+    "lodash": "^4.17.10",
+    "music-metadata": "^0.8.6",
+    "sha": "^2.0.1",
+    "shortid": "^2.2.12"
   }
 }
