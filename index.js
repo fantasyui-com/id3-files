@@ -13,9 +13,6 @@ const sha = require('sha');
 const chalk = require('chalk');
 
 
-
-
-
 const cid = new Set();
 
 program
@@ -28,7 +25,7 @@ program
   .option('--artist-title', 'Use artist/album+title in a two dir configuration')
   .option('--artist-album-title', 'Use artist/album/title in three dir configuration.')
 
-  .option('-m, --music-library [dir]', 'Path to music library', '~/music-db')
+  .option('-l, --music-library [dir]', 'Path to music library', '~/music-db')
 
   .option('-d, --dry-run', 'Dry run, just print file names.')
   .action(function (dir, dirs) {

@@ -3,6 +3,9 @@
   "version": "1.2.0",
   "description": "Employ ID v3 information in renaming of files.",
   "main": "index.js",
+  "bin": {
+    "id3-files": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
