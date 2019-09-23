@@ -27,9 +27,9 @@
     "fs-extra": "^8.1.0",
     "glob": "^7.1.4",
     "home": "^2.0.0",
-    "lodash": "^4.17.14",
-    "music-metadata": "^4.2.1",
+    "lodash": "^4.17.15",
+    "music-metadata": "^4.6.0",
     "sha": "^3.0.0",
-    "shortid": "^2.2.14"
+    "shortid": "^2.2.15"
   }
 }
