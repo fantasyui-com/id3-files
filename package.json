@@ -31,6 +31,6 @@
     "lodash": "^4.17.15",
     "music-metadata": "^4.9.2",
     "sha": "^3.0.0",
-    "shortid": "^2.2.15"
+    "shortid": "^2.2.8"
   }
 }
