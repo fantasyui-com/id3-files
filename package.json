@@ -29,7 +29,7 @@
     "glob": "^7.1.6",
     "home": "^2.0.0",
     "lodash": "^4.17.15",
-    "music-metadata": "^4.9.2",
+    "music-metadata": "^11.12.3",
     "sha": "^3.0.0",
     "shortid": "^2.2.8"
   }
